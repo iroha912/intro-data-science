@@ -15,10 +15,3 @@ This project investigates how access to infrastructure (such as parks, transport
 This project explores how access to technology differs across regions and how it impacts social and economic outcomes.
 * Are there clusters of regions with similar levels of technology access?
 * How does access to technology relate to income, education, or opportunity?
-
-## Reflection
-This week’s learning activities were not too challenging for me since I have some prior experience with GitHub and have built a website using JavaScript before. However, I had never used GitHub Pages to create a website directly from a repository, so it was interesting to learn how that workflow works.
-
-When thinking about my final project ideas, I talked with a friend who had taken this class before to get some insights. I also reviewed datasets that we used earlier in the course to get inspiration. In addition, I used AI tools to help refine and make my ideas more specific and clear.
-
-This week’s learning activities took about 2 hours, especially for brainstorming and refining my three project ideas.
