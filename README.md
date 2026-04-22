@@ -42,8 +42,8 @@ First, I created an interactive scatterplot to examine the relationship between 
 
 <iframe
   src="internet_gdp_interactive.html"
-  width="100%"
-  height="600"
+  style ="width=100%"
+  height="700"
   frameborder="0">
 </iframe>
 
@@ -51,8 +51,8 @@ Next, to better understand how internet access has changed over time, I created 
 
 <iframe
   src="time_trend_interactive.html"
-  width="100%"
-  height="600"
+  style ="width=100%"
+  height="700"
   frameborder="0">
 </iframe>
 
