@@ -42,14 +42,14 @@ First, I created an interactive scatterplot to examine the relationship between 
 
 <iframe
   src="internet_gdp_interactive.html"
-  style="width: 100%; height: 700px; border: none;">
+  style="width: 1200px; height: 700px; border: none;">
 </iframe>
 
 Next, to better understand how internet access has changed over time, I created an interactive line plot showing average internet usage by region. This makes it easier to compare how different parts of the world have changed over time. The visualization shows that internet access has increased steadily in all regions, especially after the early 2000s. However, there are still clear differences between regions, with some areas having much higher access than others.
 
 <iframe
   src="time_trend_interactive.html"
-  style="width: 100%; height: 700px; border: none;">
+  style="width: 1200px; height: 700px; border: none;">
 </iframe>
 
 Overall, these visualizations suggest that while global internet access has improved significantly over time, there are still strong inequalities between countries. Access to technology appears to be closely related to economic development, highlighting a global digital divide.
