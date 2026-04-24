@@ -52,4 +52,7 @@ Next, to better understand how internet access has changed over time, I created 
   style="width: 1300px; height: 600px; border: none;">
 </iframe>
 
+When I first implemented graphs on my website, they appeared too narrow, which made them difficult to read. I made several adjustments to both the Plotly layout and the iframe settings, and was able to improve the width and overall readability of the visualizations.
+
 Overall, these visualizations suggest that while global internet access has improved significantly over time, there are still strong inequalities between countries. Access to technology appears to be closely related to economic development, highlighting a global digital divide.
+As a next step, I would like to improve the interactivity of the scatterplot by adding a feature that allows users to search for or highlight specific countries.
