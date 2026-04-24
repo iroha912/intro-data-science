@@ -14,7 +14,7 @@ I then created a new variable ('near_whitman') to classify whether each point wa
 This map shows Professor Wirfs-Brock’s recorded locations, with points colored based on whether they are near Whitman College.
 
 ## Visualization 2: Distribution of Locations
-![Bar Chart](bar_chart.png)
+<iframe src="bar_chart.html" width="100%" height="500"></iframe>
 
 ### Interpretation
 The bar chart shows the number of location points that are near Whitman College compared to those that are farther away. 
