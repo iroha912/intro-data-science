@@ -8,7 +8,7 @@ I calculated the distance between each recorded location and Whitman College usi
 I then created a new variable ('near_whitman') to classify whether each point was within 1 km of campus.
 
 ## Visualization 1: Map of Locations
-<iframe src="" width="100%" height="500"></iframe>
+<iframe src="map.html" width="100%" height="500"></iframe>
 
 ### Interpretation
 This map shows Professor Wirfs-Brock’s recorded locations, with points colored based on whether they are near Whitman College.
