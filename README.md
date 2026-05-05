@@ -56,3 +56,18 @@ When I first implemented graphs on my website, they appeared too narrow, which m
 
 Overall, these visualizations suggest that while global internet access has improved significantly over time, there are still strong inequalities between countries. Access to technology appears to be closely related to economic development, highlighting a global digital divide.
 As a next step, I would like to improve the interactivity of the scatterplot by adding a feature that allows users to search for or highlight specific countries.
+
+##  Week 14 Update
+So far, I have found a global happiness dataset and created a map visualization showing happiness scores by country. I am still deciding how to structure my project, either by focusing on changes over time or exploring the relationship between technology access and happiness, and I still need to integrate datasets and refine my analysis.
+
+<iframe
+  src="happiness_interactive.html"
+  style="width: 1300px; height: 600px; border: none;">
+</iframe>
+
+<iframe
+  src="happiness_map_interactive.html"
+  style="width: 1300px; height: 600px; border: none;">
+</iframe>
+
+For my new technique, I plan to create more interactive visualizations, such as allowing users to switch between maps (happiness vs. internet access) and use a time slider, which I am learning through Plotly documentation and online resources. For my communication strategy, I want to focus on building a clear narrative with explanatory text alongside visuals so that it'll be more accessible. I also plan to present my project through an interactive webpage rather than using slides.
