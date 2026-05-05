@@ -65,9 +65,13 @@ So far, I have found a global happiness dataset and created a map visualization 
   style="width: 1300px; height: 600px; border: none;">
 </iframe>
 
+The scatterplot shows a general positive relationship between internet access and happiness, with higher-income countries clustering at higher levels of both variables. However, the spread among mid-level countries suggests that internet access alone does not fully explain differences in happiness.
+
 <iframe
   src="happiness_map_interactive.html"
   style="width: 1300px; height: 600px; border: none;">
 </iframe>
+
+The map reveals clear regional patterns, with higher happiness scores concentrated in North America, Europe, and Australia, while lower scores appear more frequently in parts of Africa and South Asia. This suggests that happiness is influenced by broader geographic and socioeconomic factors beyond just technology access.
 
 For my new technique, I plan to create more interactive visualizations, such as allowing users to switch between maps (happiness vs. internet access) and use a time slider, which I am learning through Plotly documentation and online resources. For my communication strategy, I want to focus on building a clear narrative with explanatory text alongside visuals so that it'll be more accessible. I also plan to present my project through an interactive webpage rather than using slides.
