@@ -19,7 +19,6 @@
         is still deeply unequal. This project explores where the digital divide remains,
         how it connects to wealth, and whether internet access also relates to national well-being.
       </p>
-      <a href="#map" class="button">Explore the Data</a>
     </div>
   </header>
 
@@ -36,20 +35,19 @@
     <section class="story-section intro">
       <h2>Why Internet Access Matters</h2>
       <p>
-        The internet is more than entertainment or social media. It affects how people
+        Nowadays, the internet is more than entertainment or social media. It affects how people
         study, work, communicate, access information, and participate in society.
         Because of this, unequal internet access can reflect larger global inequalities.
       </p>
       <p>
-        I used data from the World Bank API and the World Happiness Report to compare
-        internet access with economic development and happiness across countries.
-        Instead of presenting the data only as a class project, this page is designed
-        as a story for a general audience.
+        Using data from the World Bank API and the World Happiness Report,
+        this project explores how internet access relates to economic development
+        and happiness across countries. Rather than simply presenting statistics,
+        the goal is to help readers explore global patterns and inequalities through data.
       </p>
     </section>
 
     <section id="map" class="story-section feature-section">
-      <p class="section-label">Start here</p>
       <h2>Where Is Internet Access Highest?</h2>
       <p>
         The map below lets you compare internet access, GDP per capita, and happiness
@@ -58,8 +56,9 @@
       </p>
 
       <div class="explore-tip">
-        Try this: compare internet access and GDP per capita. Do countries with high
-        GDP always have high internet access?
+        Try this: compare internet access and GDP per capita. Do countries with
+        high GDP always have high internet access? What changes when you switch
+        to happiness scores?
       </div>
 
       <div class="visualization">
@@ -69,15 +68,15 @@
       <div class="insight-box">
         <h3>Main insight</h3>
         <p>
-          Countries with high internet access often overlap with countries that have
-          higher GDP and higher happiness scores, but the pattern is not perfect.
-          This shows that global inequality is connected, but complex.
+          The map reveals that the digital divide is strongly connected to broader
+          global inequality. Regions with high internet access often also have higher
+          GDP and happiness scores, but the pattern is not perfect. This suggests
+          that technology access is influenced by many interconnected social and economic factors.
         </p>
       </div>
     </section>
 
     <section id="time" class="story-section">
-      <p class="section-label">Finding 1</p>
       <h2>The World Has Become More Connected</h2>
       <p>
         Internet access has increased dramatically across the world. However, different
@@ -96,15 +95,15 @@
       <div class="insight-box">
         <h3>Main insight</h3>
         <p>
-          Internet access increased in every region, but some regions reached high
-          access much earlier than others. The digital divide has narrowed, but it has
-          not disappeared.
+          Internet access increased in every region, but growth has not been equal.
+          Regions such as North America and Europe reached high internet access much
+          earlier, while Sub-Saharan Africa still remains far below the global average. 
+          The digital divide has narrowed, but it has not disappeared.
         </p>
       </div>
     </section>
 
     <section id="gdp" class="story-section">
-      <p class="section-label">Finding 2</p>
       <h2>Wealth Explains Part of the Divide</h2>
       <p>
         One possible explanation for unequal internet access is economic development.
@@ -125,14 +124,14 @@
         <h3>Main insight</h3>
         <p>
           Countries with higher GDP per capita usually have higher internet access.
-          However, the relationship is not perfect, which suggests that infrastructure,
-          policy, geography, and education may also matter.
+          However, the relationship is not perfectly linear. Among high-income countries,
+          internet access begins to level off because many countries have already reached
+          near-universal internet usage.
         </p>
       </div>
     </section>
 
     <section id="happiness" class="story-section">
-      <p class="section-label">Finding 3</p>
       <h2>Does Internet Access Mean a Better Life?</h2>
       <p>
         Economic development is important, but it does not fully describe people’s
@@ -152,9 +151,11 @@
       <div class="insight-box">
         <h3>Main insight</h3>
         <p>
-          Internet access appears to be associated with happiness, but it does not
-          fully explain it. Other factors such as income, health, social support,
-          safety, and political stability also likely play important roles.
+          Countries with high internet access often also report higher happiness scores.
+          However, middle-income countries are much more widely scattered, suggesting that
+          internet access alone cannot fully explain happiness. Other factors such as
+          healthcare, social support, political stability, and inequality likely also
+          play important roles.
         </p>
       </div>
     </section>
@@ -162,10 +163,16 @@
     <section class="story-section process-section">
       <h2>How I Built This Project</h2>
       <p>
-        I collected country-level data from the World Bank API and combined it with
-        happiness data from the World Happiness Report. After cleaning country names,
-        removing missing values, and matching countries across datasets, I created
-        interactive visualizations to compare global patterns.
+        I collected country-level data from the
+        <a href="https://documents.worldbank.org/en/publication/documents-reports/api" target="_blank">
+          World Bank API
+        </a>
+        and combined it with happiness data from the
+        <a href="https://www.worldhappiness.report/" target="_blank">
+          World Happiness Report
+        </a>.
+        After cleaning country names, removing missing values, and matching countries
+        across datasets, I created interactive visualizations to compare global patterns.
       </p>
       <p>
         The main challenge was making different datasets work together. Country names,

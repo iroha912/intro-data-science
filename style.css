@@ -54,23 +54,6 @@ body {
   color: #eef6ff;
 }
 
-.button {
-  display: inline-block;
-  background: white;
-  color: #1f3b64;
-  text-decoration: none;
-  padding: 14px 24px;
-  border-radius: 999px;
-  font-weight: bold;
-  box-shadow: 0 8px 20px rgba(0,0,0,0.18);
-  transition: 0.2s ease;
-}
-
-.button:hover {
-  transform: translateY(-3px);
-  background: #eaf2ff;
-}
-
 /* Navigation */
 nav {
   position: sticky;
@@ -136,15 +119,6 @@ nav a:hover {
 
 .takeaway-section h2 {
   color: white;
-}
-
-.section-label {
-  text-transform: uppercase;
-  letter-spacing: 1.8px;
-  font-size: 13px;
-  font-weight: bold;
-  color: #5f8fc4;
-  margin-bottom: 8px;
 }
 
 h2 {
