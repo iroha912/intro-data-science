@@ -3,143 +3,194 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Global Technology Access and Well-Being</title>
+  <title>The Global Digital Divide</title>
   <link rel="stylesheet" href="style.css">
-  <script src="script.js"></script>
+  <script src="script.js" defer></script>
 </head>
 
 <body>
 
-  <header>
-    <h1>The Global Digital Divide</h1>
-    <p>
-      Exploring how internet access relates to economic development, happiness,
-      and global inequality around the world.
-    </p>
+  <header class="hero">
+    <div class="hero-content">
+      <p class="eyebrow">CS 215 Final Project</p>
+      <h1>The Internet Is Growing Everywhere — But Not Equally</h1>
+      <p class="hero-text">
+        Internet access has become part of everyday life, but the ability to connect
+        is still deeply unequal. This project explores where the digital divide remains,
+        how it connects to wealth, and whether internet access also relates to national well-being.
+      </p>
+      <a href="#map" class="button">Explore the Data</a>
+    </div>
   </header>
 
   <nav>
-    <a href="#time">Internet Over Time</a>
-    <a href="#gdp">Internet & GDP</a>
-    <a href="#happiness">Internet & Happiness</a>
     <a href="#map">World Map</a>
+    <a href="#time">Change Over Time</a>
+    <a href="#gdp">Wealth</a>
+    <a href="#happiness">Happiness</a>
+    <a href="#takeaway">Takeaways</a>
   </nav>
 
   <main class="container">
 
-    <section class="intro">
-      <h2>Project Overview</h2>
+    <section class="story-section intro">
+      <h2>Why Internet Access Matters</h2>
       <p>
-        Technology access has become an important part of modern life, influencing
-        communication, education, work, and access to information. However, internet
-        access is not equally distributed across countries. This project explores
-        how internet usage varies globally and how it relates to economic development
-        and happiness.
+        The internet is more than entertainment or social media. It affects how people
+        study, work, communicate, access information, and participate in society.
+        Because of this, unequal internet access can reflect larger global inequalities.
       </p>
       <p>
-        I used data from the World Bank API and the World Happiness Report to create
-        interactive visualizations. My goal is to better understand global inequalities
-        in technology access and quality of life.
+        I used data from the World Bank API and the World Happiness Report to compare
+        internet access with economic development and happiness across countries.
+        Instead of presenting the data only as a class project, this page is designed
+        as a story for a general audience.
       </p>
     </section>
 
-    <section id="time">
-      <h2>Internet Access Over Time</h2>
+    <section id="map" class="story-section feature-section">
+      <p class="section-label">Start here</p>
+      <h2>Where Is Internet Access Highest?</h2>
       <p>
-        To better understand how technology access has changed over time, I created
-        an interactive line plot showing average internet usage by region. Instead
-        of only looking at one global average, this visualization makes it easier
-        to compare how different parts of the world have changed over time.
-      </p>
-      <p>
-        The graph shows that internet access has increased dramatically across all
-        regions, especially after the early 2000s. However, the pace of growth is
-        not equal. Regions such as North America and Europe reached high levels of
-        internet access earlier, while regions such as Sub-Saharan Africa and South
-        Asia still lag behind. This suggests that the digital divide has narrowed
-        over time, but important inequalities remain.
+        The map below lets you compare internet access, GDP per capita, and happiness
+        scores across countries. Try switching between the indicators and looking for
+        regions where the patterns overlap — or where they do not.
       </p>
 
-      <iframe src="time_trend_interactive.html"></iframe>
+      <div class="explore-tip">
+        Try this: compare internet access and GDP per capita. Do countries with high
+        GDP always have high internet access?
+      </div>
+
+      <div class="visualization">
+        <iframe src="map_interactive.html"></iframe>
+      </div>
+
+      <div class="insight-box">
+        <h3>Main insight</h3>
+        <p>
+          Countries with high internet access often overlap with countries that have
+          higher GDP and higher happiness scores, but the pattern is not perfect.
+          This shows that global inequality is connected, but complex.
+        </p>
+      </div>
     </section>
 
-    <section id="gdp">
-      <h2>Internet Access and GDP per Capita</h2>
+    <section id="time" class="story-section">
+      <p class="section-label">Finding 1</p>
+      <h2>The World Has Become More Connected</h2>
       <p>
-        After looking at global trends over time, I examined whether internet access
-        is related to economic development. This interactive scatterplot compares
-        GDP per capita and internet access in 2024. Each point represents a country,
-        and the colors show World Bank income-level groups.
-      </p>
-      <p>
-        The scatterplot shows a clear positive relationship between GDP per capita
-        and internet access. In general, countries with higher GDP per capita tend
-        to have a larger percentage of internet users. High-income countries cluster
-        near very high internet access rates, while low-income countries tend to
-        have lower access overall. However, the pattern is not perfect, suggesting
-        that other factors such as infrastructure, policy, and education may also
-        influence access.
+        Internet access has increased dramatically across the world. However, different
+        regions did not reach high levels of access at the same time.
       </p>
 
-      <iframe src="internet_gdp_interactive.html"></iframe>
+      <div class="explore-tip">
+        Try this: look for which regions reached high internet usage earliest and
+        which regions are still catching up.
+      </div>
+
+      <div class="visualization">
+        <iframe src="time_trend_interactive.html"></iframe>
+      </div>
+
+      <div class="insight-box">
+        <h3>Main insight</h3>
+        <p>
+          Internet access increased in every region, but some regions reached high
+          access much earlier than others. The digital divide has narrowed, but it has
+          not disappeared.
+        </p>
+      </div>
     </section>
 
-    <section id="happiness">
-      <h2>Internet Access and Happiness</h2>
+    <section id="gdp" class="story-section">
+      <p class="section-label">Finding 2</p>
+      <h2>Wealth Explains Part of the Divide</h2>
       <p>
-        Economic development does not fully explain quality of life, so I also
-        explored the relationship between internet access and happiness scores.
-        This interactive scatterplot compares national happiness scores with internet
-        access levels in 2024.
-      </p>
-      <p>
-        The visualization suggests a general positive relationship: countries with
-        higher internet access often report higher happiness scores. High-income
-        countries tend to appear near the upper-right area of the graph, while
-        lower-income countries are more likely to appear in the lower-left. However,
-        the relationship is not perfectly consistent. This shows that internet
-        access may be associated with happiness, but it does not fully explain it.
-        Other factors such as income, health, social support, and political stability
-        also likely play important roles.
+        One possible explanation for unequal internet access is economic development.
+        Countries with more resources may be better able to build infrastructure,
+        expand networks, and make technology more affordable.
       </p>
 
-      <iframe src="happiness_interactive.html"></iframe>
+      <div class="explore-tip">
+        Try this: hover over countries that do not follow the main trend. What might
+        explain these exceptions?
+      </div>
+
+      <div class="visualization">
+        <iframe src="internet_gdp_interactive.html"></iframe>
+      </div>
+
+      <div class="insight-box">
+        <h3>Main insight</h3>
+        <p>
+          Countries with higher GDP per capita usually have higher internet access.
+          However, the relationship is not perfect, which suggests that infrastructure,
+          policy, geography, and education may also matter.
+        </p>
+      </div>
     </section>
 
-    <section id="map">
-      <h2>Switchable World Map</h2>
+    <section id="happiness" class="story-section">
+      <p class="section-label">Finding 3</p>
+      <h2>Does Internet Access Mean a Better Life?</h2>
       <p>
-        To bring the datasets together, I created an interactive world map that
-        allows users to switch between internet access, GDP per capita, and happiness
-        scores for 2024. This makes it easier to compare geographic patterns across
-        different indicators.
-      </p>
-      <p>
-        The map shows that regions with high internet access often overlap with
-        higher GDP and higher happiness levels. At the same time, the map also
-        reveals important exceptions, showing that global inequality is complex.
-        Technology access, economic development, and quality of life are connected,
-        but no single variable can explain everything.
+        Economic development is important, but it does not fully describe people’s
+        quality of life. To look beyond money, I compared internet access with national
+        happiness scores.
       </p>
 
-      <iframe src="map_interactive.html"></iframe>
+      <div class="explore-tip">
+        Try this: look for countries with similar internet access but different
+        happiness scores.
+      </div>
+
+      <div class="visualization">
+        <iframe src="happiness_interactive.html"></iframe>
+      </div>
+
+      <div class="insight-box">
+        <h3>Main insight</h3>
+        <p>
+          Internet access appears to be associated with happiness, but it does not
+          fully explain it. Other factors such as income, health, social support,
+          safety, and political stability also likely play important roles.
+        </p>
+      </div>
     </section>
 
-    <section>
-      <h2>Conclusion</h2>
+    <section class="story-section process-section">
+      <h2>How I Built This Project</h2>
       <p>
-        Overall, these visualizations suggest that global internet access has improved
-        significantly over time, but strong inequalities remain between countries
-        and regions. Internet access is closely related to economic development and
-        appears to be associated with happiness, but it is only one part of a much
-        larger global inequality story.
+        I collected country-level data from the World Bank API and combined it with
+        happiness data from the World Happiness Report. After cleaning country names,
+        removing missing values, and matching countries across datasets, I created
+        interactive visualizations to compare global patterns.
+      </p>
+      <p>
+        The main challenge was making different datasets work together. Country names,
+        missing values, and different formats made the merging process difficult, but
+        cleaning the data carefully was necessary before making meaningful comparisons.
+      </p>
+    </section>
+
+    <section id="takeaway" class="story-section takeaway-section">
+      <h2>What This Reveals</h2>
+      <p>
+        The internet is not just a technology issue. It is also connected to economic
+        opportunity, education, communication, and quality of life.
+      </p>
+      <p>
+        While global internet access has improved, the data shows that many countries
+        are still left behind. The digital divide is smaller than before, but it is
+        still part of broader global inequality.
       </p>
     </section>
 
   </main>
 
   <footer>
-    CS 215 Final Project | Iroha Konishi
+    <p>Created by Iroha Konishi | CS 215 Final Project</p>
   </footer>
 
 </body>
